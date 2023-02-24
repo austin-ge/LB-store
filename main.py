@@ -51,7 +51,7 @@ df3 = scrape(accessories)
 df4 = scrape(apparel)
 df = pd.concat([df1,df2,df3,df4], ignore_index=True, sort=False, axis=0)
 
-df.to_csv(r'C:\Users\austi\OneDrive\Desktop\lb scraper\items.csv',index = False, header=True)
+df.to_csv(r'items.csv',index = False, header=True)
 print(df)
 
 
